@@ -1,0 +1,32 @@
+GUI local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("SLIT HUB (Made by Slit#7960", "DarkTheme")
+
+-- AUTOFARM
+local AUTOFARM = Window:NewTab("AUTOFARM")
+local AUTOFARMSection = AUTOFARM:NewSection("AUTOFARM (OP)")
+
+
+AUTOFARMSection:NewButton("AUTOFARM (wait 30 secs after clicking button)", "OP DUPE SCRIPT", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Project-WD/PSX-Main-Lua/main/PSX-SCRIPT"))()
+end)
+
+AUTOHATCHSection:NewButton("HATCH )", "AUTO HATCH", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Project-WD/PSX-Main-Lua/main/PSX-SCRIPT"))()
+end)
+
+
+-- DUPE 
+local Dupe = Window:NewTab("DUPE")
+local DupeSection = DUPE:NewSection("DUPE v4 (OP)")
+
+DUPESection:NewButton("DUPE (wait 30 secs after clicking button)", "OP DUPE SCRIPT", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Project-WD/PSX-Main-Lua/main/PSX-SCRIPT"))()
+end)
+
+DUPEGEMSSection:NewButton("DUPEGEMS (wait 30 secs after clicking button)", "OP DUPE GEMS SCRIPT", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Project-WD/PSX-Main-Lua/main/PSX-SCRIPT"))()
+end)
+
+-- Credits
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("Made by Slit#7960 (Thanks for using)")
